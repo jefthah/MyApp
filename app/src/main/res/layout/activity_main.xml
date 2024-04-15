@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@android:color/black"
+        android:textAlignment="center"
+        app:titleTextAppearance="@style/ToolbarTitle"/>
+
+    <TextView
+        android:layout_width="317dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/text_background_shape"
+        android:fontFamily="@font/poppinsbold"
+        android:padding="1dp"
+        android:text="Wagyu Grill"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="336dp"
+        android:layout_height="261dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/wagyu3"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="790dp"
+        android:background="@drawable/text_background_shape2"
+        android:layout_marginTop="390dp"/>
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:text="@string/deskripsi"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:fontFamily="@font/poppinsregular"/>
+
+    <TextView
+        android:id="@+id/foodNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionTextView"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Nama Makanan: "
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <TextView
+        android:id="@+id/foodOriginTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/foodNameTextView"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:text="Asal Makanan: "
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <TextView
+        android:id="@+id/foodPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/foodOriginTextView"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:text="Harga Makanan: "
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <Button
+        android:id="@+id/destinationButton"
+        android:layout_width="390dp"
+        android:layout_height="64dp"
+        android:layout_below="@id/foodPriceTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Tujuan Destinasi Wisata Tampilan"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

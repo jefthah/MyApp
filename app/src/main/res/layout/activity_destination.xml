@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:titleTextColor="@android:color/black" />
+
+    <ImageView
+        android:id="@+id/imageDestination"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/swiss"
+        android:layout_marginTop="60dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="281dp"
+        android:layout_height="78dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="13dp"> <!-- Menambahkan drop shadow dengan memberi nilai elevation -->
+
+        <TextView
+            android:id="@+id/textDestinationName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Switzerland"
+            android:textColor="#000000"
+            android:fontFamily="@font/poppinsbold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:layout_marginLeft="110dp" /> <!-- Warna teks -->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/swiss_flag"
+            android:layout_marginRight="150dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+        <!-- Lokasi destinasi -->
+        <TextView
+            android:id="@+id/textDestinationLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deskripsiSwiss"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:layout_marginTop="300dp"/>
+
+
+        <!-- Tombol kembali -->
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="309dp"
+            android:layout_height="78dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="630dp"
+            android:backgroundTint="@color/black"
+            android:text="Kembali"
+            android:textSize="20dp"/>
+
+</RelativeLayout>

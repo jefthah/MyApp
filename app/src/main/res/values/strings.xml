@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="deskripsi">
+Wagyu adalah daging sapi Jepang yang terkenal dengan lemaknya yang merata dan memberikan rasa yang kaya. Tekstur lembut dan marbling yang khas membuatnya menjadi pilihan favorit. Pengalaman menyantapnya memberikan kepuasan kuliner yang istimewa.</string>
+    <string name="title_activity_destination">destination</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="deskripsiSwiss">Swiss adalah sebuah negara yang terletak di Eropa Barat Tengah. Negara ini terkenal dengan pegunungan Alpen yang indah, danau-danau kristal, serta kota-kota yang bersih dan teratur. Beberapa keunikan dari Swiss termasuk kereta gunung yang menakjubkan, cokelat Swiss yang terkenal di seluruh dunia, dan sistem transportasi yang efisien. Destinasi ini menawarkan pengalaman liburan yang menyenangkan bagi para wisatawan yang mencari pemandangan alam yang spektakuler, petualangan luar ruangan, dan kekayaan budaya yang kaya.</string>
+</resources>
